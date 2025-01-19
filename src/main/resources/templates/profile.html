@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/profile.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <img id="profilePicture" alt="Profile picture" src="">
+            <div class="profile-info">
+                <div class="name"></div>
+                <div class="friends-count"></div>
+            </div>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="users">
+<!--            <div class="user-box">-->
+<!--                <div class="user-image-container">-->
+<!--                    <img class="user-image" src="/images/profilePhotos/avatar.png">-->
+<!--                </div>-->
+<!--                <div class="user-text"> Todor Ioan </div>-->
+<!--            </div>-->
+                <div class="requests">
+                    <p class="friends-text"> Friend requests </p>
+                </div>
+                <div class="friends">
+                    <p class="friends-text">  Friends </p>
+                </div>
+        </div>
+        <div class="feed">
+        </div>
+        <div class="modal" id="deleteModal">
+            <div class="modal-content">
+                <h2>Confirm Account Deletion</h2>
+                <p>Please enter your password to proceed:</p>
+                <form method="dialog">
+                    <input id="passwordInput" type="password" name="password" placeholder="Enter your password" required>
+                    <div class="modal-buttons">
+                        <button type="submit" id="confirm">Confirm</button>
+                        <button type="reset" id="cancel">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1.5.1/dist/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script type="module" src="/js/profile.js"> </script>
+</body>
+</html>

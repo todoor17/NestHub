@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="/css/chat.css">
+</head>
+<body>
+<div class="chat-container">
+    <div class="chat-header">
+        Chat
+    </div>
+
+    <div class="chat-box">
+<!--        <div class="friend-chat">-->
+<!--            <img class="chat-pic" src="/images/profilePhotos/avatar.png" alt="Friend" />-->
+<!--            <div class="chat-message">-->
+<!--                Hello, how are you?-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="user-chat">-->
+<!--            <div class="chat-message">-->
+<!--                I'm good, thanks!-->
+<!--            </div>-->
+<!--            <img class="chat-pic" src="/images/profilePhotos/avatar.png" alt="You" />-->
+<!--        </div>-->
+    </div>
+
+    <div class="chat-input-container">
+        <input type="text" placeholder="Type a message..." id="messageInput">
+        <button id="sendButton">Send</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1.5.1/dist/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+    <script src="/js/chat.js"></script>
+</div>
+</body>
+</html>
