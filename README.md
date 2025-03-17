@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Nest** is a simplified social media platform built with **Spring Boot**, **JPA (Hibernate)**, and **WebSockets**. The platform supports user registration, real-time communication, and interactive features such as sending friendship requests, managing posts, and messaging friends. The name **"Nest"** symbolizes a safe, comforting space where connections can thrive.
+**Nesthub** is a simplified social media platform built with **Spring Boot**, **JPA (Hibernate)**, and **WebSockets**. The platform supports user registration, real-time communication, and interactive features such as sending friendship requests, managing posts, and messaging friends. The name **"Nest"** symbolizes a safe, comforting space where connections can thrive.
 
 ---
 
