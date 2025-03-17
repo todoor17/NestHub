@@ -118,7 +118,3 @@
   - Friendship requests and message posting.
   - Updating and retrieving posts.
 - Spring Boot automatically handles JSON serialization and deserialization.
-
----
-
-This enhanced README provides a clear and organized overview of the project, its functionality, and the technologies that support its features.
